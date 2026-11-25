@@ -1,0 +1,6 @@
+{
+  "name": "WAIL DICO",
+  "description": "تصميم وتصنيع حوامل العرض الإعلانية (Présentoirs) المخصصة في الجزائر — خرايسية، الجزائر العاصمة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
