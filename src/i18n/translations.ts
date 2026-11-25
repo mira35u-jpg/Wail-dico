@@ -600,6 +600,29 @@ export const UI_COPY = {
       aria: (brand: string, shelves: number) =>
         `Plan technique du présentoir ${brand} à ${shelves} niveaux`,
     },
+    aiAssistant: {
+      fabLabel: 'Assistant IA',
+      fabAria: 'Ouvrir l’assistant intelligent WAIL DICO',
+      title: 'Assistant WAIL DICO',
+      subtitle: 'Répond selon nos réalisations & services',
+      resetBtn: 'Nouvelle discussion',
+      closeBtn: 'Fermer',
+      welcome:
+        'Bonjour ! Je suis l’assistant WAIL DICO. Posez-moi vos questions sur nos présentoirs en Forex, façades Alucobond, stands d’exposition, délais ou livraison en Algérie.',
+      quickQuestions: [
+        'Quels matériaux utilisez-vous (Forex) ?',
+        'Quels sont les délais de 3D et fabrication ?',
+        'Livrez-vous dans toutes les wilayas ?',
+        'Comment demander un devis personnalisé ?',
+      ],
+      placeholder: 'Posez votre question (AR / FR / EN)...',
+      sendBtn: 'Envoyer',
+      thinking: 'Réponse en cours...',
+      retryBtn: 'Réessayer',
+      errNetwork: 'Impossible de joindre le serveur. Vérifiez votre connexion et réessayez.',
+      waAction: 'Devis WhatsApp',
+      configAction: 'Configurateur 3D',
+    },
   },
   ar: {
     nav: {
@@ -888,6 +911,29 @@ export const UI_COPY = {
     blueprint: {
       aria: (brand: string, shelves: number) =>
         `مخطط تصميم حامل عرض ${brand} بعدد ${shelves} رفوف`,
+    },
+    aiAssistant: {
+      fabLabel: 'اسأل المساعد الذكي',
+      fabAria: 'فتح المساعد الذكي الخاص بموقع WAIL DICO',
+      title: 'مساعد WAIL DICO الذكي',
+      subtitle: 'يجيب اعتماداً على خدمات ومشاريع الموقع',
+      resetBtn: 'محادثة جديدة',
+      closeBtn: 'إغلاق',
+      welcome:
+        'مرحباً بكم في WAIL DICO! اسألوني عن حوامل العرض بالفوركس (Forex)، واجهات المحلات، أجنحة المعارض، ديكورات المدارس، مدة الإنجاز أو الشحن لجميع الولايات.',
+      quickQuestions: [
+        'ما هي المواد التي تشتغلون بها؟',
+        'كم تستغرق مدة التصميم 3D والتصنيع؟',
+        'هل يوجد توصيل خارج الجزائر العاصمة؟',
+        'كيف أطلب عرض سعر لحامل مخصص؟',
+      ],
+      placeholder: 'اكتب سؤالك بالعربية أو الدارجة أو الفرنسية...',
+      sendBtn: 'إرسال',
+      thinking: 'جاري كتابة الرد...',
+      retryBtn: 'إعادة المحاولة',
+      errNetwork: 'تعذر الاتصال بالخادم، يرجى التأكد من الاتصال والمحاولة مجدداً.',
+      waAction: 'طلب سعر واتساب',
+      configAction: 'مجهّز الطلب 3D',
     },
   },
   en: {
@@ -1178,6 +1224,29 @@ export const UI_COPY = {
     blueprint: {
       aria: (brand: string, shelves: number) =>
         `${brand} custom display stand schematic with ${shelves} shelves`,
+    },
+    aiAssistant: {
+      fabLabel: 'AI Assistant',
+      fabAria: 'Open WAIL DICO AI customer assistant',
+      title: 'WAIL DICO Assistant',
+      subtitle: 'Grounded in our portfolio & site specs',
+      resetBtn: 'New chat',
+      closeBtn: 'Close',
+      welcome:
+        'Welcome to WAIL DICO! Ask me anything about our custom Forex display stands, storefront Alucobond wraps, exhibition booths, lead times, or delivery across all 58 wilayas.',
+      quickQuestions: [
+        'What materials do you use (Forex)?',
+        'What are your 3D & production lead times?',
+        'Do you ship outside Algiers?',
+        'How can I request a custom quote?',
+      ],
+      placeholder: 'Ask a question in EN, FR, or AR...',
+      sendBtn: 'Send',
+      thinking: 'Typing reply...',
+      retryBtn: 'Retry',
+      errNetwork: 'Could not reach the server. Please check your connection and retry.',
+      waAction: 'WhatsApp Quote',
+      configAction: '3D Configurator',
     },
   },
 } as const;
