@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useState } from 'react';
-import { AiAssistantWidget } from './components/AiAssistantWidget';
 import { BenefitsBento } from './components/BenefitsBento';
 import { ContactFooter } from './components/ContactFooter';
 import { ContactPage } from './components/ContactPage';
@@ -105,8 +104,6 @@ export default function App() {
         onNavigate={navigate}
         lang={lang}
       />
-
-      <AiAssistantWidget lang={lang} onNavigate={navigate} />
     </div>
   );
 }
